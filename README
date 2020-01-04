@@ -1,0 +1,33 @@
+tomf0333
+315962597
+tom feldboy
+
+Description :
+	made the Rush Hour™ game using three classes to represent the objects in
+	the game.
+	
+	Car - 
+		makes car objects that have:
+									a name
+									length
+									location (1st cell)
+									orientation (horizontal or vertical)
+		and some methods for moving a car and displaying its details.
+	
+	Board - 
+		makes a board object that is a SIZE*SIZE length (can be determined in)
+		the class.
+		and some methods on how the board interacts with the car object.
+	
+	Game - 
+		the game itself where i use both Car and Board with the game rules.
+
+worked with : none
+
+used websites : none
+
+specail comments: 
+	in order to win you don't have to reach the victory cell in this game,
+	because that cell is not on the board and therfor a car can't reach it.
+	so alternetevlily, if a car reaches the cell so its end would be next to
+	the victory cell (one more move and it would be on it), then you win.
